@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #1353bf;
+    background-image: url("https://i.stack.imgur.com/J189y.jpg")
+}
+
+.container {
+    max-width: 352px;
+    margin: auto;
+}
+
+#general {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* #general css start */
+
+#general {
+    background-color: #e8eef9;
+    width: 439px;
+    opacity: 0.902;
+    width: 440px;
+    height: 493px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 8px 10px rgba(0, 1, 1, 0.26));
+    background-color: #ffffff;
+}
+
+#general h1 {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-align: left;
+    padding-top: 36px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#general form label {
+    opacity: 0.800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+
+}
+
+#general form input {
+    opacity: 0.702;
+    width: 351px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.7019607843137254);
+    border: 1px solid #d8d8d8;
+    padding-left: 21px;
+}
+
+#general form input::placeholder {
+    opacity: 0.902;
+    font-size: 18px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+}
+
+#general form label input {
+    text-align: left;
+    width: 21px;
+    height: 21px;
+    border-radius: 6px;
+    background-color: #04a9f4;
+    margin-top: 18px;
+}
+
+#general b {
+    font-size: 14px;
+    line-height: 28px;
+    color: #04a9f4;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    margin-left: 140px;
+}
+
+#general button {
+    margin-top: 30px;
+    width: 352px;
+    height: 55px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    filter: drop-shadow(0px 3px 0px #0075aa);
+    background-color: #0896d7;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-align: center;
+    filter: drop-shadow(0px -1px 0px rgba(0, 0, 0, 0.2));
+    margin-bottom: 51px;
+
+
+}
+
+#general a {
+    width: 170px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #3162a2;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+
+/* .checkbox{
+width: 21px;
+height: 21px;
+border-radius: 6px;
+background-color: #04a9f4;
+}
